@@ -17,7 +17,4 @@ $result = mysqli_query($conn,"Update users set dob = '$dob',address = '$address'
 echo '<script type="text/javascript">'; 
     echo 'alert("Updated successfully");'; 
     echo 'window.location= "home.php";';
-    echo '</script>'; 
-
-?>
-
+    echo '</script>';
